@@ -1,572 +1,1040 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Index - iPortfolio Bootstrap Template</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - iPortfolio Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: iPortfolio
   * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
   * Updated: Jun 29 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="index-page">
+  <body class="index-page">
+    <header id="header" class="header dark-background d-flex flex-column">
+      <i class="header-toggle d-xl-none bi bi-list"></i>
 
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <div class="profile-img">
-      <img src="assets/img/skylarprof.jpg" alt="" class="img-fluid rounded-circle">
-    </div>
-
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1 class="sitename">Skylar Shi</h1>
-    </a>
-
-    <div class="social-links text-center">
-      <a href="https://www.linkedin.com/in/skylar-shi-614559221/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      <a href="https://github.com/skylarshi123" class="github"><i class="bi bi-github"></i></a>
-    </div>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-<!-- Hero Section -->
-<section id="hero" class="hero section dark-background">
-  <img src="assets/img/skylarelephant.jpg" alt="" data-aos="fade-in" class="img-fluid d-none d-md-block">
-  <img src="assets/img/skylarbeach.jpg" alt="" data-aos="fade-in" class="img-fluid d-md-none">
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <h2>Skylar Shi</h2>
-      <p>I'm a <span class="typed" data-typed-items="Programmer, AI Engineer, Web Developer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-  </div>
-</section><!-- /Hero Section -->
-
-    <!-- About Section -->
-<section id="about" class="about section py-5 bg-light">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center mb-3" data-aos="fade-up">
-        <h2 class="display-4 fw-bold mb-4">About Me</h2>
-        <p class="lead text-muted">
-          👋 Hi, I'm Skylar! A UCLA Computer Science student passionate about pushing the boundaries of technology.
-        </p>
+      <div class="profile-img">
+        <img
+          src="assets/img/skylarprof.jpg"
+          alt=""
+          class="img-fluid rounded-circle"
+        />
       </div>
-    </div>
 
-    <div class="row gy-5 gx-lg-5 align-items-center">
-      <div class="col-lg-5" data-aos="fade-right">
-        <div class="position-relative">
-          <img src="assets/img/skylar.jpg" class="img-fluid rounded-4 shadow-lg" alt="Skylar Shi">
-          <div class="position-absolute top-100 start-50 translate-middle bg-primary text-white px-4 py-2 rounded-pill">
-            Web Developer & AI Engineer
-          </div>
+      <a
+        href="index.html"
+        class="logo d-flex align-items-center justify-content-center"
+      >
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Skylar Shi</h1>
+      </a>
+
+      <div class="social-links text-center">
+        <a
+          href="https://www.linkedin.com/in/skylar-shi-614559221/"
+          class="linkedin"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a href="https://github.com/skylarshi123" class="github"
+          ><i class="bi bi-github"></i
+        ></a>
+      </div>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="#hero" class="active"
+              ><i class="bi bi-house navicon"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="#about"><i class="bi bi-person navicon"></i> About</a>
+          </li>
+          <li>
+            <a href="#resume"
+              ><i class="bi bi-file-earmark-text navicon"></i> Resume</a
+            >
+          </li>
+          <li>
+            <a href="#portfolio"
+              ><i class="bi bi-images navicon"></i> Projects</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <img
+          src="assets/img/skylarelephant.jpg"
+          alt=""
+          data-aos="fade-in"
+          class="img-fluid d-none d-md-block"
+        />
+        <img
+          src="assets/img/skylarbeach.jpg"
+          alt=""
+          data-aos="fade-in"
+          class="img-fluid d-md-none"
+        />
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <h2>Skylar Shi</h2>
+          <p>
+            I'm a
+            <span
+              class="typed"
+              data-typed-items="Programmer, AI Engineer, Web Developer"
+              >Designer</span
+            ><span
+              class="typed-cursor typed-cursor--blink"
+              aria-hidden="true"
+            ></span
+            ><span
+              class="typed-cursor typed-cursor--blink"
+              aria-hidden="true"
+            ></span>
+          </p>
         </div>
-      </div>
-      <div class="col-lg-7" data-aos="fade-left">
-        <h3 class="fw-bold mb-4">Passionate about Full-Stack, Scripting, and Machine Learning</h3>
-        <p class="mb-4">
-          As a UPE Tutoring Chair member, I thrive on leading review sessions for core CS classes and helping fellow students excel in their coursework. My technical journey spans across various domains:
-        </p>
-        <div class="row g-4 mb-4">
-          <div class="col-md-6">
-            <div class="d-flex align-items-start">
-              <i class="bi bi-code-square fs-4 text-primary me-3"></i>
-              <div>
-                <h5 class="fw-bold">Full-Stack Development</h5>
-                <p>Building robust web applications from front-end to back-end, utilizing modern frameworks and best practices.</p>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- About Section -->
+      <section id="about" class="about section py-5 bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center mb-3" data-aos="fade-up">
+              <h2 class="display-4 fw-bold mb-4">About Me</h2>
+              <p class="lead text-muted">
+                👋 Hi, I'm Skylar! A UCLA Computer Science student passionate
+                about pushing the boundaries of technology.
+              </p>
+            </div>
+          </div>
+
+          <div class="row gy-5 gx-lg-5 align-items-center">
+            <div class="col-lg-5" data-aos="fade-right">
+              <div class="position-relative">
+                <img
+                  src="assets/img/skylar.jpg"
+                  class="img-fluid rounded-4 shadow-lg"
+                  alt="Skylar Shi"
+                />
+                <div
+                  class="position-absolute top-100 start-50 translate-middle bg-primary text-white px-4 py-2 rounded-pill"
+                >
+                  Web Developer & AI Engineer
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="d-flex align-items-start">
-              <i class="bi bi-terminal fs-4 text-primary me-3"></i>
-              <div>
-                <h5 class="fw-bold">Scripting & Automation</h5>
-                <p>Crafting efficient scripts to automate tasks and enhance productivity in various environments.</p>
+            <div class="col-lg-7" data-aos="fade-left">
+              <h3 class="fw-bold mb-4">
+                Passionate about Full-Stack, Scripting, and Machine Learning
+              </h3>
+              <p class="mb-4">
+                As a UPE Tutoring Chair member, I thrive on leading review
+                sessions for core CS classes and helping fellow students excel
+                in their coursework. My technical journey spans across various
+                domains:
+              </p>
+              <div class="row g-4 mb-4">
+                <div class="col-md-6">
+                  <div class="d-flex align-items-start">
+                    <i class="bi bi-code-square fs-4 text-primary me-3"></i>
+                    <div>
+                      <h5 class="fw-bold">Full-Stack Development</h5>
+                      <p>
+                        Building robust web applications from front-end to
+                        back-end, utilizing modern frameworks and best
+                        practices.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="d-flex align-items-start">
+                    <i class="bi bi-terminal fs-4 text-primary me-3"></i>
+                    <div>
+                      <h5 class="fw-bold">Scripting & Automation</h5>
+                      <p>
+                        Crafting efficient scripts to automate tasks and enhance
+                        productivity in various environments.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="d-flex align-items-start">
+                    <i class="bi bi-cpu fs-4 text-primary me-3"></i>
+                    <div>
+                      <h5 class="fw-bold">Machine Learning</h5>
+                      <p>
+                        Exploring the frontiers of AI, from computer vision to
+                        natural language processing, to solve real-world
+                        problems.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="d-flex align-items-start">
+                    <i class="bi bi-graph-up fs-4 text-primary me-3"></i>
+                    <div>
+                      <h5 class="fw-bold">Data Analysis</h5>
+                      <p>
+                        Extracting insights from complex datasets to drive
+                        informed decision-making and innovation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="d-flex align-items-start">
-              <i class="bi bi-cpu fs-4 text-primary me-3"></i>
-              <div>
-                <h5 class="fw-bold">Machine Learning</h5>
-                <p>Exploring the frontiers of AI, from computer vision to natural language processing, to solve real-world problems.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="d-flex align-items-start">
-              <i class="bi bi-graph-up fs-4 text-primary me-3"></i>
-              <div>
-                <h5 class="fw-bold">Data Analysis</h5>
-                <p>Extracting insights from complex datasets to drive informed decision-making and innovation.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p class="mb-4">
-          Outside of my technical pursuits, I'm an avid golfer ⛳🏌️‍♂️. As my high school's golf team captain, I learned valuable lessons in leadership and precision that I apply to my coding projects. Whether I'm debugging code or on the green, I'm always striving for that perfect execution!
-        </p>
-        <div class="row g-3">
-          <div class="col-sm-6">
-            <div class="d-flex align-items-center">
-              <i class="bi bi-envelope-fill text-primary me-2"></i>
-              <span>skylarshi@g.ucla.edu</span>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="d-flex align-items-center">
-              <i class="bi bi-geo-alt-fill text-primary me-2"></i>
-              <span>Los Angeles, USA</span>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="d-flex align-items-center">
-              <i class="bi bi-phone-fill text-primary me-2"></i>
-              <span>+626 235 4454</span>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="d-flex align-items-center">
-              <i class="bi bi-github text-primary me-2"></i>
-              <a href="https://github.com/skylarshi123" class="text-decoration-none">github.com/skylarshi123</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /About Section -->
-
-    
-<!-- Skills Section -->
-<section id="skills" class="skills section bg-light py-5">
-  <div class="container section-title" data-aos="fade-up">
-    <h2 class="text-center mb-5">Technical Skills</h2>
-  </div>
-
-  <div class="container">
-    <div class="row g-4">
-      <!-- Languages & Frameworks -->
-      <div class="col-md-6 col-lg-4" data-aos="zoom-in">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body">
-            <h4 class="card-title mb-3">Languages & Frameworks</h4>
-            <p class="card-text">JavaScript (ES6), Python3, C++23, Java, React, Node.js, Express.js, Bootstrap</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Machine Learning & Data Science -->
-      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body">
-            <h4 class="card-title mb-3">Machine Learning & Data Science</h4>
-            <p class="card-text">Pytorch, Tensorflow, OpenCV, LLMs, Prompt engineering</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Databases & Cloud Services -->
-      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body">
-            <h4 class="card-title mb-3">Databases & Cloud Services</h4>
-            <p class="card-text">MongoDB, SQL, AWS, Azure, Firebase, Supabase</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tools & Technologies -->
-      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body">
-            <h4 class="card-title mb-3">Tools & Technologies</h4>
-            <p class="card-text">Git, Raspberry Pi, Jupyter Notebooks, Parallel processing</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Certifications -->
-      <div class="col-md-12 col-lg-8" data-aos="zoom-in" data-aos-delay="400">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body">
-            <h4 class="card-title mb-3">Certifications</h4>
-            <div class="d-flex flex-wrap gap-2">
-              <a href="https://www.credly.com/badges/b19e8637-d703-4253-9d60-71d611026670/public_url" target="_blank" class="btn btn-outline-primary btn-sm">Network+</a>
-              <a href="https://www.credly.com/badges/1aa53b55-2484-446f-acf9-1352c1a904d9/public_url" target="_blank" class="btn btn-outline-primary btn-sm">Security+</a>
-              <a href="https://www.credly.com/badges/e704496d-dd79-45a5-b7f9-40f2bed46d5c/public_url" target="_blank" class="btn btn-outline-primary btn-sm">AWS Cloud Practitioner</a>
-              <a href="https://www.credly.com/badges/dc0eea66-0f51-448c-b0a6-4849973d152d/public_url" target="_blank" class="btn btn-outline-primary btn-sm">Azure Fundamentals</a>
-              <a href="https://www.credly.com/badges/5cecefab-233e-4025-b6ef-6a526d877c74/public_url" target="_blank" class="btn btn-outline-primary btn-sm">CCNA Networking</a>
-              <a href="https://www.coursera.org/account/accomplishments/specialization/CAEWG692G7JQ" target="_blank" class="btn btn-outline-primary btn-sm">Stanford ML Specialization</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /Skills Section -->
-
-    <!-- Resume Section -->
-<section id="resume" class="resume section py-5 bg-light">
-  <div class="container">
-    <!-- Section Title -->
-    <div class="row justify-content-center mb-5">
-      <div class="col-lg-8 text-center" data-aos="fade-up">
-        <h2 class="display-4 fw-bold mb-3">Resume</h2>
-        <p><a href="https://drive.google.com/drive/folders/1aDZBr5Un_U5CT1EVuyuU76aH-zNJMH3B?usp=sharing" class="btn btn-primary">View PDF Version</a></p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="resume-title mb-4">Professional Experience</h3>
-
-        <!-- Machine Learning Intern -->
-        <div class="resume-item card shadow-sm mb-4">
-          <div class="card-body">
-            <h4 class="card-title">Machine Learning Intern</h4>
-            <h5 class="text-muted mb-3">Jun. 2024 -- Sep. 2024</h5>
-            <p><em>Concentric AI, San Jose, CA</em></p>
-            <ul class="list-unstyled">
-              <li class="mb-2">• Engineered Python automation scripts to implement robust pipelines for Gen AI models, leveraging parallel processing to query Large Language Models (LLMs) concurrently, accelerating OS-level tasks and evaluation processes that would have been 200+ hours to just under 4 hours</li>
-              <li class="mb-2">• Leveraged prompt engineering techniques to optimize AI model performance, resulting in repeatable parsable results</li>
-              <li>• Curated and refined extensive datasets using Python libraries, applying advanced visualization techniques to guide fine-tuning of LLMs, which led to a 20% increase in task-specific accuracy</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Software Engineering Intern (Summer 2023) -->
-        <div class="resume-item card shadow-sm mb-4">
-          <div class="card-body">
-            <h4 class="card-title">Software Engineering Intern</h4>
-            <h5 class="text-muted mb-3">Jun. 2023 -- Sep. 2023</h5>
-            <p><em>Curacao, Los Angeles, CA</em></p>
-            <ul class="list-unstyled">
-              <li class="mb-2">• Simplified website navigation improving efficiency by 20%, and utilized vendor product optimization, increasing search accuracy by 7%</li>
-              <li>• Researched and proposed 5 alternative SEO strategies to management, one of which had a predicted 30% increase in organic traffic over 6 months</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Software Engineering Intern (Summer 2022) -->
-        <div class="resume-item card shadow-sm mb-4">
-          <div class="card-body">
-            <h4 class="card-title">Software Engineering Intern</h4>
-            <h5 class="text-muted mb-3">Aug. 2022 -- Sep. 2022</h5>
-            <p><em>Curacao, Los Angeles, CA</em></p>
-            <ul class="list-unstyled">
-              <li class="mb-2">• Developed multiple responsive e-commerce frontend pages for 100+ open-box products</li>
-              <li>• Conducted comprehensive UI/UX analysis by reviewing over 400 User Journey videos, identifying 8 key trends which spurred a solution that led to an 8% improvement in user satisfaction</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Information Technology Intern -->
-        <div class="resume-item card shadow-sm">
-          <div class="card-body">
-            <h4 class="card-title">Information Technology Intern</h4>
-            <h5 class="text-muted mb-3">Jun. 2022 -- Aug. 2022</h5>
-            <p><em>M-Theory Group, Los Angeles, CA</em></p>
-            <ul class="list-unstyled">
-              <li class="mb-2">• Led an inventory software migration, collaborating with engineers to implement solutions that significantly improved inventory management processes</li>
-              <li class="mb-2">• Conducted data cleansing of 3,000+ records and delivered training sessions for multiple team members, resulting in 40% enhanced operational capabilities</li>
-              <li>• Developed centralized SharePoint repository for 15 critical WASP (Inventory software) functions, streamlining knowledge transfer and reducing document search time by 30%</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /Resume Section -->
-
-<!-- Portfolio Section -->
-<section id="portfolio" class="portfolio section bg-light py-5">
-  <div class="container section-title" data-aos="fade-up">
-    <h2 class="text-center mb-5">Projects</h2>
-  </div>
-
-  <div class="container">
-    <div class="row g-5">
-      <!-- Portfolio Item 1 -->
-      <div class="col-12" data-aos="fade-up">
-        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-          <div class="row g-0">
-            <div class="col-lg-6 p-0 d-flex align-items-center">
-              <div class="ratio ratio-16x9 w-100">
-                <iframe src="https://www.youtube.com/embed/2X2KcECYDSs?si=aOOPBuULRIrUKBKr" title="YouTube video" allowfullscreen class="w-100 h-100 object-fit-cover"></iframe>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="card-body p-4">
-                <h3 class="card-title fs-4 mb-3">AI-Powered Face Recognition Door Lock System</h3>
-                <p class="card-text text-muted">Engineered an advanced, secure facial recognition system for smart access control:</p>
-                <ul class="text-muted small">
-                  <li>Leveraged TensorFlow and Python to develop a high-accuracy facial recognition model</li>
-                  <li>Achieved 99.7% accuracy in real-time face detection and recognition</li>
-                  <li>Utilized OpenCV for efficient image processing and facial feature extraction</li>
-                  <li>Implemented on Raspberry Pi for cost-effective, edge-based computing</li>
-                  <li>Developed and trained a custom CNN model optimized for edge device deployment</li>
-                  <li>Created an automated dataset generation pipeline for model training</li>
-                  <li>Optimized CNN architecture and hyperparameters for minimal latency</li>
-                  <li>Integrated the AI model with hardware to create a fully functional smart lock solution</li>
-                </ul>
-                <p class="text-muted small">This project showcases expertise in AI/ML development, computer vision, edge computing, and IoT integration, demonstrating the ability to create practical, high-performance AI solutions.</p>
-                <a href="https://github.com/skylarshi123/AI-Powered-Face-Recognition-Door-Lock-System" class="btn btn-outline-primary mt-3">Learn More</a>
+              <p class="mb-4">
+                Outside of my technical pursuits, I'm an avid golfer ⛳🏌️‍♂️. As my
+                high school's golf team captain, I learned valuable lessons in
+                leadership and precision that I apply to my coding projects.
+                Whether I'm debugging code or on the green, I'm always striving
+                for that perfect execution!
+              </p>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-envelope-fill text-primary me-2"></i>
+                    <span>skylarshi@g.ucla.edu</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                    <span>Los Angeles, USA</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-phone-fill text-primary me-2"></i>
+                    <span>+626 235 4454</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-github text-primary me-2"></i>
+                    <a
+                      href="https://github.com/skylarshi123"
+                      class="text-decoration-none"
+                      >github.com/skylarshi123</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- /About Section -->
 
-      <!-- Portfolio Item 2 -->
-      <div class="col-12" data-aos="fade-up">
-        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-          <div class="row g-0">
-            <div class="col-lg-6 order-lg-2 p-0 d-flex align-items-center">
-              <div class="ratio ratio-16x9 w-100">
-                <iframe src="https://www.youtube.com/embed/pN0riJ-uJqk?si=W94wWwYvf7guxudm" title="YouTube video" allowfullscreen class="w-100 h-100 object-fit-cover"></iframe>
+      <!-- Skills Section -->
+      <section id="skills" class="skills section bg-light py-5">
+        <div class="container section-title" data-aos="fade-up">
+          <h2 class="text-center mb-5">Technical Skills</h2>
+        </div>
+
+        <div class="container">
+          <div class="row g-4">
+            <!-- Languages & Frameworks -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h4 class="card-title mb-3">Languages & Frameworks</h4>
+                  <p class="card-text">
+                    JavaScript (ES6), Python3, C++23, Java, React, Node.js,
+                    Express.js, Bootstrap
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body p-4">
-                <h3 class="card-title fs-4 mb-3"><a href="https://yelpcamp-o0wt.onrender.com/" class="text-decoration-none">Yelp Camp:</a> Full-Stack Campground Review Platform</h3>
-                <p class="card-text text-muted">Engineered a feature-rich web application for campground discovery, sharing, and reviewing:</p>
-                <ul class="text-muted small">
-                  <li>Utilized Node.js and Express.js for robust backend development</li>
-                  <li>Implemented MongoDB with Mongoose ORM for efficient data management</li>
-                  <li>Designed responsive frontend using Bootstrap 5 and EJS templating</li>
-                  <li>Secured user authentication with Passport.js</li>
-                  <li>Enhanced security using Helmet.js and express-mongo-sanitize to prevent SQL injections and XSS attacks</li>
-                  <li>Integrated Cloudinary for streamlined image management</li>
-                  <li>Incorporated MapTiler for geocoding and interactive map displays</li>
-                  <li>Developed full CRUD functionality for comprehensive user interaction</li>
-                  <li>Optimized user experience with visual and location-based features</li>
-                </ul>
-                <p class="text-muted small">This project demonstrates proficiency in full-stack development, database management, API integration, and implementation of robust security measures against common web vulnerabilities.</p>
-                <a href="https://github.com/skylarshi123/YelpCamp" class="btn btn-outline-primary mt-3">Learn More</a>
+
+            <!-- Machine Learning & Data Science -->
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h4 class="card-title mb-3">
+                    Machine Learning & Data Science
+                  </h4>
+                  <p class="card-text">
+                    Pytorch, Tensorflow, OpenCV, LLMs, Prompt engineering
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Databases & Cloud Services -->
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h4 class="card-title mb-3">Databases & Cloud Services</h4>
+                  <p class="card-text">
+                    MongoDB, SQL, AWS, Azure, Firebase, Supabase
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tools & Technologies -->
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h4 class="card-title mb-3">Tools & Technologies</h4>
+                  <p class="card-text">
+                    Git, Raspberry Pi, Jupyter Notebooks, Parallel processing
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Certifications -->
+            <div
+              class="col-md-12 col-lg-8"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h4 class="card-title mb-3">Certifications</h4>
+                  <div class="d-flex flex-wrap gap-2">
+                    <a
+                      href="https://www.credly.com/badges/b19e8637-d703-4253-9d60-71d611026670/public_url"
+                      target="_blank"
+                      class="btn btn-outline-primary btn-sm"
+                      >Network+</a
+                    >
+                    <a
+                      href="https://www.credly.com/badges/1aa53b55-2484-446f-acf9-1352c1a904d9/public_url"
+                      target="_blank"
+                      class="btn btn-outline-primary btn-sm"
+                      >Security+</a
+                    >
+                    <a
+                      href="https://www.credly.com/badges/e704496d-dd79-45a5-b7f9-40f2bed46d5c/public_url"
+                      target="_blank"
+                      class="btn btn-outline-primary btn-sm"
+                      >AWS Cloud Practitioner</a
+                    >
+                    <a
+                      href="https://www.credly.com/badges/dc0eea66-0f51-448c-b0a6-4849973d152d/public_url"
+                      target="_blank"
+                      class="btn btn-outline-primary btn-sm"
+                      >Azure Fundamentals</a
+                    >
+                    <a
+                      href="https://www.credly.com/badges/5cecefab-233e-4025-b6ef-6a526d877c74/public_url"
+                      target="_blank"
+                      class="btn btn-outline-primary btn-sm"
+                      >CCNA Networking</a
+                    >
+                    <a
+                      href="https://www.coursera.org/account/accomplishments/specialization/CAEWG692G7JQ"
+                      target="_blank"
+                      class="btn btn-outline-primary btn-sm"
+                      >Stanford ML Specialization</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- /Skills Section -->
 
-      <!-- Portfolio Item 3 -->
-      <div class="col-12" data-aos="fade-up">
-        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-          <div class="row g-0">
-            <div class="col-lg-6 p-0 d-flex align-items-center">
-              <div class="ratio ratio-16x9 w-100">
-                <iframe src="https://www.youtube.com/embed/2X2KcECYDSs?si=aOOPBuULRIrUKBKr" title="YouTube video" allowfullscreen class="w-100 h-100 object-fit-cover"></iframe>
-              </div>
+      <!-- Resume Section -->
+      <section id="resume" class="resume section py-5 bg-light">
+        <div class="container">
+          <!-- Section Title -->
+          <div class="row justify-content-center mb-5">
+            <div class="col-lg-8 text-center" data-aos="fade-up">
+              <h2 class="display-4 fw-bold mb-3">Resume</h2>
+              <p>
+                <a
+                  href="https://drive.google.com/drive/folders/1aDZBr5Un_U5CT1EVuyuU76aH-zNJMH3B?usp=sharing"
+                  class="btn btn-primary"
+                  >View PDF Version</a
+                >
+              </p>
             </div>
-            <div class="col-lg-6">
-              <div class="card-body p-4">
-                <h3 class="card-title fs-4 mb-3">PersonaInsight: AI-Driven Personality Profiling Platform</h3>
-                <p class="card-text text-muted">Developed an interactive machine learning application for advanced personality analysis:</p>
-                <ul class="text-muted small">
-                  <li>Built with Streamlit, scikit-learn, and Agglomerative Clustering</li>
-                  <li>Implements Big Five personality model for comprehensive profiling</li>
-                  <li>Features real-time survey analysis and global user segmentation</li>
-                  <li>Provides instant, AI-generated personality insights and cluster characteristics</li>
-                </ul>
-                <p class="text-muted small">Demonstrates expertise in Python, ML, data analysis, and creating user-friendly AI tools for HR and marketing applications.</p>
-                <a href="https://github.com/skylarshi123/StreamlitProject" class="btn btn-outline-primary mt-3">Learn More</a>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title mb-4">Professional Experience</h3>
+
+              <!-- Machine Learning Intern -->
+              <div class="resume-item card shadow-sm mb-4">
+                <div class="card-body">
+                  <h4 class="card-title">Machine Learning Intern</h4>
+                  <h5 class="text-muted mb-3">Jun. 2024 -- Sep. 2024</h5>
+                  <p><em>Concentric AI, San Jose, CA</em></p>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      • Engineered Python automation scripts to implement robust
+                      pipelines for Gen AI models, leveraging parallel
+                      processing to query Large Language Models (LLMs)
+                      concurrently, accelerating OS-level tasks and evaluation
+                      processes that would have been 200+ hours to just under 4
+                      hours
+                    </li>
+                    <li class="mb-2">
+                      • Leveraged prompt engineering techniques to optimize AI
+                      model performance, resulting in repeatable parsable
+                      results
+                    </li>
+                    <li class="mb-2">
+                      • Integrated LLM-context-driven sensitive schema detection
+                      solution into internal and production environments,
+                      enhancing data security protocols and improving compliance
+                      with industry regulations
+                    </li>
+                    <li>
+                      • Conducted benchmarking of multiple lightweight LLMs (8
+                      billion parameters), selecting the top-performing model
+                      with a 5% improvement in task-specific accuracy over the
+                      average
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Software Engineering Intern (Summer 2023) -->
+              <div class="resume-item card shadow-sm mb-4">
+                <div class="card-body">
+                  <h4 class="card-title">Software Engineering Intern</h4>
+                  <h5 class="text-muted mb-3">Jun. 2023 -- Sep. 2023</h5>
+                  <p><em>Curacao, Los Angeles, CA</em></p>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      • Simplified website navigation improving efficiency by
+                      20%, and utilized vendor product optimization, increasing
+                      search accuracy by 7%
+                    </li>
+                    <li>
+                      • Researched and proposed 5 alternative SEO strategies to
+                      management, one of which had a predicted 30% increase in
+                      organic traffic over 6 months
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Software Engineering Intern (Summer 2022) -->
+              <div class="resume-item card shadow-sm mb-4">
+                <div class="card-body">
+                  <h4 class="card-title">Software Engineering Intern</h4>
+                  <h5 class="text-muted mb-3">Aug. 2022 -- Sep. 2022</h5>
+                  <p><em>Curacao, Los Angeles, CA</em></p>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      • Developed multiple responsive e-commerce frontend pages
+                      for 100+ open-box products
+                    </li>
+                    <li>
+                      • Conducted comprehensive UI/UX analysis by reviewing over
+                      400 User Journey videos, identifying 8 key trends which
+                      spurred a solution that led to an 8% improvement in user
+                      satisfaction
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Information Technology Intern -->
+              <div class="resume-item card shadow-sm">
+                <div class="card-body">
+                  <h4 class="card-title">Information Technology Intern</h4>
+                  <h5 class="text-muted mb-3">Jun. 2022 -- Aug. 2022</h5>
+                  <p><em>M-Theory Group, Los Angeles, CA</em></p>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      • Led an inventory software migration, collaborating with
+                      engineers to implement solutions that significantly
+                      improved inventory management processes
+                    </li>
+                    <li class="mb-2">
+                      • Conducted data cleansing of 3,000+ records and delivered
+                      training sessions for multiple team members, resulting in
+                      40% enhanced operational capabilities
+                    </li>
+                    <li>
+                      • Developed centralized SharePoint repository for 15
+                      critical WASP (Inventory software) functions, streamlining
+                      knowledge transfer and reducing document search time by
+                      30%
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- /Resume Section -->
 
-      <!-- Portfolio Item 4 -->
-      <div class="col-12" data-aos="fade-up">
-        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-          <div class="row g-0">
-            <div class="col-lg-6 order-lg-2 p-0 d-flex align-items-center">
-              <div class="ratio ratio-16x9 w-100">
-                <iframe src="https://www.youtube.com/embed/rtMk93EPqyQ?si=YzXMVv4ZDE-gaoF7" title="YouTube video" allowfullscreen class="w-100 h-100 object-fit-cover"></iframe>
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section bg-light py-5">
+        <div class="container section-title" data-aos="fade-up">
+          <h2 class="text-center mb-5">Projects</h2>
+        </div>
+
+        <div class="container">
+          <div class="row g-5">
+            <!-- Portfolio Item 1 -->
+            <div class="col-12" data-aos="fade-up">
+              <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <div class="row g-0">
+                  <div class="col-lg-6 p-0 d-flex align-items-center">
+                    <div class="ratio ratio-16x9 w-100">
+                      <iframe
+                        src="https://www.youtube.com/embed/KvJdN7U-DoI?si=wGuUUW-m3Et-E25S"
+                        title="YouTube video"
+                        allowfullscreen
+                        class="w-100 h-100 object-fit-cover"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card-body p-4">
+                      <h3 class="card-title fs-4 mb-3">
+                        AI-Powered Face Recognition Door Lock System
+                      </h3>
+                      <p class="card-text text-muted">
+                        Engineered an advanced, secure facial recognition system
+                        for smart access control:
+                      </p>
+                      <ul class="text-muted small">
+                        <li>
+                          Leveraged TensorFlow and Python to develop a
+                          high-accuracy facial recognition model
+                        </li>
+                        <li>
+                          Achieved 99.7% accuracy in real-time face detection
+                          and recognition
+                        </li>
+                        <li>
+                          Utilized OpenCV for efficient image processing and
+                          facial feature extraction
+                        </li>
+                        <li>
+                          Implemented on Raspberry Pi for cost-effective,
+                          edge-based computing
+                        </li>
+                        <li>
+                          Developed and trained a custom CNN model optimized for
+                          edge device deployment
+                        </li>
+                        <li>
+                          Created an automated dataset generation pipeline for
+                          model training
+                        </li>
+                        <li>
+                          Optimized CNN architecture and hyperparameters for
+                          minimal latency
+                        </li>
+                        <li>
+                          Integrated the AI model with hardware to create a
+                          fully functional smart lock solution
+                        </li>
+                      </ul>
+                      <p class="text-muted small">
+                        This project showcases expertise in AI/ML development,
+                        computer vision, edge computing, and IoT integration,
+                        demonstrating the ability to create practical,
+                        high-performance AI solutions.
+                      </p>
+                      <a
+                        href="https://github.com/skylarshi123/AI-Powered-Face-Recognition-Door-Lock-System"
+                        class="btn btn-outline-primary mt-3"
+                        >Learn More</a
+                      >
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body p-4">
-                <h3 class="card-title fs-4 mb-3">Game Development with Unity</h3>
-                <p class="card-text text-muted">I spearheaded the development of <a href="https://sredifer.itch.io/rocket-simulator" class="text-decoration-none">Rocket Landing Simulator</a>, a Unity-based game created collaboratively in a game development lab at UCLA. As the lead programmer on a team of four, I focused on implementing the core mechanics that bring the game to life:</p>
-                <ul class="text-muted small">
-                  <li>Engineered realistic rocket physics and movement systems</li>
-                  <li>Developed collision detection and response for varied terrain</li>
-                  <li>Designed and implemented the multi-level progression system</li>
-                  <li>Orchestrated seamless map-to-map transitions</li>
-                </ul>
-                <p class="text-muted small">Working within a Git-managed environment, I collaborated closely with team members who contributed additional features such as fuel management, audio integration, and user interface design. This project showcases my ability to create complex game systems, work effectively in a team, and deliver a polished, playable experience.</p>
-                <a href="https://sredifer.itch.io/rocket-simulator" class="btn btn-outline-primary mt-3">Learn More</a>
+
+            <!-- Portfolio Item 2 -->
+            <div class="col-12" data-aos="fade-up">
+              <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <div class="row g-0">
+                  <div
+                    class="col-lg-6 order-lg-2 p-0 d-flex align-items-center"
+                  >
+                    <div class="ratio ratio-16x9 w-100">
+                      <iframe
+                        src="https://www.youtube.com/embed/pN0riJ-uJqk?si=W94wWwYvf7guxudm"
+                        title="YouTube video"
+                        allowfullscreen
+                        class="w-100 h-100 object-fit-cover"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 order-lg-1">
+                    <div class="card-body p-4">
+                      <h3 class="card-title fs-4 mb-3">
+                        <a
+                          href="https://yelpcamp-o0wt.onrender.com/"
+                          class="text-decoration-none"
+                          >Yelp Camp:</a
+                        >
+                        Full-Stack Campground Review Platform
+                      </h3>
+                      <p class="card-text text-muted">
+                        Engineered a feature-rich web application for campground
+                        discovery, sharing, and reviewing:
+                      </p>
+                      <ul class="text-muted small">
+                        <li>
+                          Utilized Node.js and Express.js for robust backend
+                          development
+                        </li>
+                        <li>
+                          Implemented MongoDB with Mongoose ORM for efficient
+                          data management
+                        </li>
+                        <li>
+                          Designed responsive frontend using Bootstrap 5 and EJS
+                          templating
+                        </li>
+                        <li>Secured user authentication with Passport.js</li>
+                        <li>
+                          Enhanced security using Helmet.js and
+                          express-mongo-sanitize to prevent SQL injections and
+                          XSS attacks
+                        </li>
+                        <li>
+                          Integrated Cloudinary for streamlined image management
+                        </li>
+                        <li>
+                          Incorporated MapTiler for geocoding and interactive
+                          map displays
+                        </li>
+                        <li>
+                          Developed full CRUD functionality for comprehensive
+                          user interaction
+                        </li>
+                        <li>
+                          Optimized user experience with visual and
+                          location-based features
+                        </li>
+                      </ul>
+                      <p class="text-muted small">
+                        This project demonstrates proficiency in full-stack
+                        development, database management, API integration, and
+                        implementation of robust security measures against
+                        common web vulnerabilities.
+                      </p>
+                      <a
+                        href="https://github.com/skylarshi123/YelpCamp"
+                        class="btn btn-outline-primary mt-3"
+                        >Learn More</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Portfolio Item 3 -->
+            <div class="col-12" data-aos="fade-up">
+              <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <div class="row g-0">
+                  <div class="col-lg-6 p-0 d-flex align-items-center">
+                    <div class="ratio ratio-16x9 w-100">
+                      <iframe
+                        src="https://www.youtube.com/embed/2X2KcECYDSs?si=aOOPBuULRIrUKBKr"
+                        title="YouTube video"
+                        allowfullscreen
+                        class="w-100 h-100 object-fit-cover"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card-body p-4">
+                      <h3 class="card-title fs-4 mb-3">
+                        PersonaInsight: AI-Driven Personality Profiling Platform
+                      </h3>
+                      <p class="card-text text-muted">
+                        Developed an interactive machine learning application
+                        for advanced personality analysis:
+                      </p>
+                      <ul class="text-muted small">
+                        <li>
+                          Built with Streamlit, scikit-learn, and Agglomerative
+                          Clustering
+                        </li>
+                        <li>
+                          Implements Big Five personality model for
+                          comprehensive profiling
+                        </li>
+                        <li>
+                          Features real-time survey analysis and global user
+                          segmentation
+                        </li>
+                        <li>
+                          Provides instant, AI-generated personality insights
+                          and cluster characteristics
+                        </li>
+                      </ul>
+                      <p class="text-muted small">
+                        Demonstrates expertise in Python, ML, data analysis, and
+                        creating user-friendly AI tools for HR and marketing
+                        applications.
+                      </p>
+                      <a
+                        href="https://github.com/skylarshi123/StreamlitProject"
+                        class="btn btn-outline-primary mt-3"
+                        >Learn More</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Portfolio Item 4 -->
+            <div class="col-12" data-aos="fade-up">
+              <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <div class="row g-0">
+                  <div
+                    class="col-lg-6 order-lg-2 p-0 d-flex align-items-center"
+                  >
+                    <div class="ratio ratio-16x9 w-100">
+                      <iframe
+                        src="https://www.youtube.com/embed/rtMk93EPqyQ?si=YzXMVv4ZDE-gaoF7"
+                        title="YouTube video"
+                        allowfullscreen
+                        class="w-100 h-100 object-fit-cover"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 order-lg-1">
+                    <div class="card-body p-4">
+                      <h3 class="card-title fs-4 mb-3">
+                        Game Development with Unity
+                      </h3>
+                      <p class="card-text text-muted">
+                        I spearheaded the development of
+                        <a
+                          href="https://sredifer.itch.io/rocket-simulator"
+                          class="text-decoration-none"
+                          >Rocket Landing Simulator</a
+                        >, a Unity-based game created collaboratively in a game
+                        development lab at UCLA. As the lead programmer on a
+                        team of four, I focused on implementing the core
+                        mechanics that bring the game to life:
+                      </p>
+                      <ul class="text-muted small">
+                        <li>
+                          Engineered realistic rocket physics and movement
+                          systems
+                        </li>
+                        <li>
+                          Developed collision detection and response for varied
+                          terrain
+                        </li>
+                        <li>
+                          Designed and implemented the multi-level progression
+                          system
+                        </li>
+                        <li>Orchestrated seamless map-to-map transitions</li>
+                      </ul>
+                      <p class="text-muted small">
+                        Working within a Git-managed environment, I collaborated
+                        closely with team members who contributed additional
+                        features such as fuel management, audio integration, and
+                        user interface design. This project showcases my ability
+                        to create complex game systems, work effectively in a
+                        team, and deliver a polished, playable experience.
+                      </p>
+                      <a
+                        href="https://sredifer.itch.io/rocket-simulator"
+                        class="btn btn-outline-primary mt-3"
+                        >Learn More</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Portfolio Item 5 -->
+            <div class="col-12" data-aos="fade-up">
+              <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <div class="row g-0">
+                  <div class="col-lg-6 p-0 d-flex align-items-center">
+                    <img
+                      src="assets/img/cataracts.png"
+                      class="img-fluid w-100 object-fit-cover"
+                      alt="CataractDetection"
+                    />
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card-body p-4">
+                      <h3 class="card-title fs-4 mb-3">
+                        CataractDetection: AI-Powered Medical Imaging Analyzer
+                      </h3>
+                      <p class="card-text text-muted">
+                        Developed an advanced Convolutional Neural Network (CNN)
+                        for medical image classification:
+                      </p>
+                      <ul class="text-muted small">
+                        <li>
+                          Implemented using TensorFlow for efficient deep
+                          learning
+                        </li>
+                        <li>
+                          Custom CNN architecture with multiple convolutional
+                          and pooling layers
+                        </li>
+                        <li>
+                          Engineered data loaders for seamless processing of
+                          medical imaging datasets
+                        </li>
+                        <li>
+                          Incorporated real-time performance visualization and
+                          analysis tools
+                        </li>
+                        <li>Achieved a 97.94% accuracy on the test set</li>
+                      </ul>
+                      <p class="text-muted small">
+                        Demonstrates expertise in Python, deep learning,
+                        computer vision, and creating AI solutions for
+                        healthcare applications.
+                      </p>
+                      <a
+                        href="https://github.com/skylarshi123/CataractDetection"
+                        class="btn btn-outline-primary mt-3"
+                        >Learn More</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Portfolio Item 6 -->
+            <div class="col-12" data-aos="fade-up">
+              <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <div class="row g-0">
+                  <div
+                    class="col-lg-6 order-lg-2 p-0 d-flex align-items-center"
+                  >
+                    <div class="ratio ratio-16x9 w-100">
+                      <iframe
+                        src="https://www.youtube.com/embed/5sO2BejsvfY?si=KT6fx-V2dWqyDnMk"
+                        title="YouTube video"
+                        allowfullscreen
+                        class="w-100 h-100 object-fit-cover"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 order-lg-1">
+                    <div class="card-body p-4">
+                      <h3 class="card-title fs-4 mb-3">
+                        C++ OOP Game Development
+                      </h3>
+                      <p class="card-text text-muted">
+                        Developed a C++ classic game, Marble Madness, showcasing
+                        advanced programming skills:
+                      </p>
+                      <ul class="text-muted small">
+                        <li>
+                          Implemented complex game logic and AI behaviors using
+                          object-oriented programming principles
+                        </li>
+                        <li>
+                          Designed an extensible class hierarchy for diverse
+                          game objects and enemies
+                        </li>
+                        <li>
+                          Created a robust game engine managing real-time user
+                          input, object interactions, and level progression
+                        </li>
+                        <li>
+                          Utilized polymorphism and memory management for
+                          efficient, scalable code
+                        </li>
+                        <li>
+                          Integrated with existing graphical frameworks,
+                          demonstrating adaptability to established systems
+                        </li>
+                      </ul>
+                      <p class="text-muted small">
+                        This project highlights proficiency in C++,
+                        problem-solving, and the ability to work with detailed
+                        specifications to deliver a fully-functional,
+                        multi-level game experience.
+                      </p>
+                      <a
+                        href="https://github.com/skylarshi123/MarbleMadnessOfficial"
+                        class="btn btn-outline-primary mt-3"
+                        >Learn More</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Portfolio Item 7 -->
+            <div class="col-12" data-aos="fade-up">
+              <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <div class="row g-0">
+                  <div class="col-lg-6 p-0 d-flex align-items-center">
+                    <div class="ratio ratio-16x9 w-100">
+                      <iframe
+                        src="https://www.youtube.com/embed/V7aQ1JOmrhI?si=2BrV4OKobsTrWjvR"
+                        title="YouTube video"
+                        allowfullscreen
+                        class="w-100 h-100 object-fit-cover"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card-body p-4">
+                      <h3 class="card-title fs-4 mb-3">
+                        C++ UCLA Turn by turn navigation
+                      </h3>
+                      <p class="card-text text-muted">
+                        Developed a sophisticated C++ application to generate
+                        optimized walking tours of UCLA and Westwood:
+                      </p>
+                      <ul class="text-muted small">
+                        <li>
+                          Implemented a custom HashMap class for efficient
+                          geospatial data indexing
+                        </li>
+                        <li>
+                          Created a GeoDatabase class to load and query Open
+                          Street Map data
+                        </li>
+                        <li>
+                          Designed a Router class using A* algorithm for optimal
+                          pathfinding
+                        </li>
+                        <li>
+                          Built a TourGenerator to produce detailed,
+                          step-by-step tour instructions
+                        </li>
+                        <li>
+                          Utilized object-oriented design principles and STL
+                          containers for scalable, maintainable code
+                        </li>
+                        <li>
+                          Optimized algorithms to handle large datasets
+                          efficiently (20,000+ street segments)
+                        </li>
+                      </ul>
+                      <p class="text-muted small">
+                        This project showcases advanced C++ skills, algorithm
+                        design, and the ability to work with complex
+                        specifications to deliver a fully functional, real-world
+                        application.
+                      </p>
+                      <a
+                        href="https://github.com/skylarshi123/navigationprj4"
+                        class="btn btn-outline-primary mt-3"
+                        >Learn More</a
+                      >
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- /Portfolio Section -->
+    </main>
 
-      <!-- Portfolio Item 5 -->
-      <div class="col-12" data-aos="fade-up">
-        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-          <div class="row g-0">
-            <div class="col-lg-6 p-0 d-flex align-items-center">
-              <img src="assets/img/cataracts.png" class="img-fluid w-100 object-fit-cover" alt="CataractDetection">
-            </div>
-            <div class="col-lg-6">
-              <div class="card-body p-4">
-                <h3 class="card-title fs-4 mb-3">CataractDetection: AI-Powered Medical Imaging Analyzer</h3>
-                <p class="card-text text-muted">Developed an advanced Convolutional Neural Network (CNN) for medical image classification:</p>
-                <ul class="text-muted small">
-                  <li>Implemented using TensorFlow for efficient deep learning</li>
-                  <li>Custom CNN architecture with multiple convolutional and pooling layers</li>
-                  <li>Engineered data loaders for seamless processing of medical imaging datasets</li>
-                  <li>Incorporated real-time performance visualization and analysis tools</li>
-                  <li>Achieved a 97.94% accuracy on the test set</li>
-                </ul>
-                <p class="text-muted small">Demonstrates expertise in Python, deep learning, computer vision, and creating AI solutions for healthcare applications.</p>
-                <a href="https://github.com/skylarshi123/CataractDetection" class="btn btn-outline-primary mt-3">Learn More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <footer
+      id="footer"
+      class="footer position-relative light-background"
+    ></footer>
 
-      <!-- Portfolio Item 6 -->
-      <div class="col-12" data-aos="fade-up">
-        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-          <div class="row g-0">
-            <div class="col-lg-6 order-lg-2 p-0 d-flex align-items-center">
-              <div class="ratio ratio-16x9 w-100">
-                <iframe src="https://www.youtube.com/embed/5sO2BejsvfY?si=KT6fx-V2dWqyDnMk" title="YouTube video" allowfullscreen class="w-100 h-100 object-fit-cover"></iframe>
-              </div>
-            </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body p-4">
-                <h3 class="card-title fs-4 mb-3">C++ OOP Game Development</h3>
-                <p class="card-text text-muted">Developed a C++ classic game, Marble Madness, showcasing advanced programming skills:</p>
-                <ul class="text-muted small">
-                  <li>Implemented complex game logic and AI behaviors using object-oriented programming principles</li>
-                  <li>Designed an extensible class hierarchy for diverse game objects and enemies</li>
-                  <li>Created a robust game engine managing real-time user input, object interactions, and level progression</li>
-                  <li>Utilized polymorphism and memory management for efficient, scalable code</li>
-                  <li>Integrated with existing graphical frameworks, demonstrating adaptability to established systems</li>
-                </ul>
-                <p class="text-muted small">This project highlights proficiency in C++, problem-solving, and the ability to work with detailed specifications to deliver a fully-functional, multi-level game experience.</p>
-                <a href="https://github.com/skylarshi123/MarbleMadnessOfficial" class="btn btn-outline-primary mt-3">Learn More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-      <!-- Portfolio Item 7 -->
-      <div class="col-12" data-aos="fade-up">
-        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-          <div class="row g-0">
-            <div class="col-lg-6 p-0 d-flex align-items-center">
-              <div class="ratio ratio-16x9 w-100">
-                <iframe src="https://www.youtube.com/embed/V7aQ1JOmrhI?si=2BrV4OKobsTrWjvR" title="YouTube video" allowfullscreen class="w-100 h-100 object-fit-cover"></iframe>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="card-body p-4">
-                <h3 class="card-title fs-4 mb-3">C++ UCLA Turn by turn navigation</h3>
-                <p class="card-text text-muted">Developed a sophisticated C++ application to generate optimized walking tours of UCLA and Westwood:</p>
-                <ul class="text-muted small">
-                  <li>Implemented a custom HashMap class for efficient geospatial data indexing</li>
-                  <li>Created a GeoDatabase class to load and query Open Street Map data</li>
-                  <li>Designed a Router class using A* algorithm for optimal pathfinding</li>
-                  <li>Built a TourGenerator to produce detailed, step-by-step tour instructions</li>
-                  <li>Utilized object-oriented design principles and STL containers for scalable, maintainable code</li>
-                  <li>Optimized algorithms to handle large datasets efficiently (20,000+ street segments)</li>
-                </ul>
-                <p class="text-muted small">This project showcases advanced C++ skills, algorithm design, and the ability to work with complex specifications to deliver a fully functional, real-world application.</p>
-                <a href="https://github.com/skylarshi123/navigationprj4" class="btn btn-outline-primary mt-3">Learn More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-    </div>
-  </div>
-</section>
-<!-- /Portfolio Section -->
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-
-
-  </main>
-
-  <footer id="footer" class="footer position-relative light-background">
-
-
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
