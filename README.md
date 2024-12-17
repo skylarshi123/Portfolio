@@ -63,75 +63,9 @@ A modern, responsive portfolio website showcasing my projects, skills, and profe
 - npm
 - Chrome DevTools
 
-## 📂 Project Structure
-
-```
-portfolio/
-│
-├── assets/
-│   ├── images/
-│   ├── fonts/
-│   └── icons/
-│
-├── css/
-│   ├── style.css
-│   └── custom.scss
-│
-├── js/
-│   └── main.js
-│
-├── index.html
-├── about.html
-├── projects.html
-└── contact.html
-```
-
-## 🚀 Getting Started
-
-1. Clone the repository:
-```bash
-git clone https://github.com/username/portfolio.git
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run development server:
-```bash
-npm start
-```
-
-## 📱 Responsive Breakpoints
-
-| Device      | Width    |
-|-------------|----------|
-| Mobile      | < 576px  |
-| Tablet      | ≥ 768px  |
-| Desktop     | ≥ 992px  |
-| Large       | ≥ 1200px |
-
-## ⚡ Performance Metrics
-
-- Lighthouse Score: 98/100
-- Page Load Time: < 2s
-- First Contentful Paint: < 1s
-- Time to Interactive: < 2.5s
-
-## 🎨 Color Palette
-
-| Color   | Hex     | Usage           |
-|---------|---------|-----------------|
-| Primary | #2563eb | Buttons, Links  |
-| Secondary| #64748b | Text, Icons    |
-| Accent  | #0ea5e9 | Highlights     |
-| Dark    | #0f172a | Background     |
-| Light   | #f8fafc | Text, Borders  |
-
 ## 🚀 Deployment
 
-The site is deployed using GitHub Pages. Each push to the main branch automatically triggers a new deployment.
+The site is deployed using GitHub Pages with CI/CD. Each push to the main branch automatically triggers a new deployment.
 
 ## 📈 Future Enhancements
 
